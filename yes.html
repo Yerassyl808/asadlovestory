@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="animation.css" />
+  </head>
+
+  <!-- cool programming projects -->
+  <body id="body">
+    <div id="primary-container">
+      <!--  stickman container -->
+      <div id="stickman-container" class="character-container">
+        <div class="head" id="man-head"></div>
+        <div class="body" id="man-body"></div>
+        <div class="left-hand" id="man-left-hand"></div>
+        <div class="right-hand" id="man-right-hand"></div>
+        <div class="left-leg" id="man-left-leg"></div>
+        <div class="right-leg" id="man-right-leg"></div>
+        <div class="right-hand-fold" id="right-hand-fold">
+          <div id="hand1"></div>
+          <div id="hand2"></div>
+        </div>
+        <!-- rose -->
+        <div id="rose">🌹</div>
+      </div>
+      <!-- stickwoman container -->
+      <div id="stickwoman-container" class="character-container">
+        <div class="head woman"></div>
+        <div class="body woman">
+          <div id="first"></div>
+          <div id="second"></div>
+          <div id="third"></div>
+        </div>
+        <div class="left-hand woman"></div>
+        <div class="right-hand woman"></div>
+        <div class="left-leg" id="woman-right-leg"></div>
+        <div class="right-leg" id="woman-left-leg"></div>
+      </div>
+
+      <!-- programmer container -->
+      <div
+        id="programmer-container"
+        class="character-container"
+        style="display: none"
+      >
+        <div class="head"></div>
+        <div class="body"></div>
+        <div class="left-hand"></div>
+        <div class="right-hand"></div>
+        <div class="left-leg" id="programmer-left-leg"></div>
+        <div class="right-leg" id="programmer-right-leg"></div>
+      </div>
+      <!-- message box -->
+      <div id="msgBox">Я люблю тебя</div>
+      <!-- coding box -->
+      <div id="codingBox">console.log('hello world');</div>
+
+      <!-- box -->
+      <div id="box">Через несколько Дней</div>
+      <!-- road -->
+      <div id="road"></div>
+      <button id="play-btn">play animation</button>
+    </div>
+    <div class="error-msg">Эта анимация поддерживает очень большие устройства</div>
+    <script src="main.js"></script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>

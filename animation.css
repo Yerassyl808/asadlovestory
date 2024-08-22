@@ -1,0 +1,160 @@
+
+/* leg animations */
+
+@keyframes left-leg-animation {
+    0%{
+        transform: rotateZ(25deg);
+    }
+    100%{
+        transform: rotateZ(-25deg);
+    } 
+}
+@keyframes right-leg-animation {
+    0%{
+        transform: rotateZ(-25deg);
+    }
+    100%{
+        transform: rotateZ(25deg);
+    } 
+}
+
+/* body animation */
+
+@keyframes stickman-animation-1 {
+    0%{
+        left:50px;    
+    }
+    100%{
+        left:600px;
+    } 
+}
+
+@keyframes stickman-animation-2 {
+    0%{
+        left:600px;    
+    }
+    100%{
+        left:-150px;
+    } 
+}
+@keyframes stickman-animation-3 {
+    0%{
+        left:1400px;   
+    }
+    100%{
+        left:300px;
+    } 
+}
+
+@keyframes stickman-animation-4 {
+    0%{
+        left:300px;
+    }
+    100%{
+        left:1400px;   
+    } 
+}
+
+
+@keyframes stickwoman-animation-1 {
+    0%{
+        right:400px;   
+    }
+    100%{
+        right:-150px;
+    } 
+}
+
+@keyframes rose-animation {
+    0%{
+        top: 67px;  
+    }
+    100%{
+        top: 270px;
+    } 
+}
+
+@keyframes thunder-animation {
+    0%,10%,12%,50%,53%,60%,64%,80%{
+   background-image: linear-gradient(rgb(0, 0, 0),black);
+    }
+    11%,52%,61%,63%{
+        background-image: linear-gradient(white,black);
+
+    }
+}
+
+
+
+@keyframes programmer-animation-1 {
+    0%{
+        left:1400px;    
+    }
+    100%{
+        left:1100px;
+    } 
+}
+@keyframes programmer-animation-2 {
+    0%{
+        left:1100px;    
+    }
+    100%{
+        left:500px;
+    } 
+}
+@keyframes programmer-animation-3 {
+    0%{
+        left:500px;   
+    }
+    100%{
+        left:1500px;
+    } 
+}
+
+/* animations */
+
+  .stickman-animation-1 {
+    animation: stickman-animation-1 17s linear 1 forwards;
+  }
+  .stickman-animation-2 {
+    animation: stickman-animation-2 15s linear 1 forwards;
+  }
+  .stickman-animation-3 {
+    animation: stickman-animation-3 20s linear 1 forwards;
+  }
+  .stickman-animation-4 {
+    animation: stickman-animation-4 15s linear 1 forwards;
+  }
+  .programmer-animation-1{
+    animation: programmer-animation-1 3s linear 1 forwards;
+  }
+  .programmer-animation-2{
+    animation: programmer-animation-2 5s linear 1 forwards;
+  }
+  .programmer-animation-3{
+    animation: programmer-animation-3 15s linear 1 forwards;
+
+  }
+
+  .right-leg-animation {
+    animation: right-leg-animation 2s linear alternate infinite;
+  }
+  .left-leg-animation {
+    animation: left-leg-animation 2s linear alternate infinite;
+  }
+  .right-leg-fast-animation {
+    animation: right-leg-animation 1s linear alternate infinite;
+  }
+  .left-leg-fast-animation {
+    animation: left-leg-animation 1s linear alternate infinite;
+  }
+
+  .stickwoman-move-forward {
+    animation: stickwoman-animation-1 7s linear 1 forwards;
+  }
+  .rose-animation {
+    animation: rose-animation 5s linear 1 forwards;
+  }
+  .thunder-animation {
+    animation: thunder-animation 1s linear alternate infinite;
+  }
